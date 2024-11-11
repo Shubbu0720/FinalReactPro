@@ -1,0 +1,384 @@
+{
+  "signup": [
+    {
+      "id": "f7e6",
+      "First_name": "kamil",
+      "Last_name": "ansari",
+      "Mobile_number": "8863824104",
+      "Email": "kamilansari88@gmail.com",
+      "Password": "Kamil88@",
+      "Confirm_password": "Kamil88@",
+      "Profile_pic": {}
+    },
+    {
+      "id": "ca16",
+      "First_name": "Shahrukh",
+      "Last_name": "Ahmad",
+      "Mobile_number": "9608391371",
+      "Email": "shahrukh007@gmail.com",
+      "Password": "Shah007@",
+      "Confirm_password": "Shahrukh007@",
+      "Profile_pic": {}
+    },
+    {
+      "id": "03ee",
+      "First_name": "Shaziya ",
+      "Last_name": "Yashmin",
+      "Mobile_number": "8886667770",
+      "Email": "shaziyayashmin5@gmail.com",
+      "Password": "Shaziya5@",
+      "Confirm_password": "Shaziya5@",
+      "State": "",
+      "Profile_pic": {}
+    },
+    {
+      "id": "a8ea",
+      "First_name": "Shabishtan ",
+      "Last_name": "Tashneem",
+      "Mobile_number": "8867900756",
+      "Email": "shabishtan22@gmail.com",
+      "Password": "Shab07@",
+      "Confirm_password": "Shab07@",
+      "State": "",
+      "Profile_pic": {}
+    },
+    {
+      "id": "6cab",
+      "First_name": "Shefta ",
+      "Last_name": "Afreen",
+      "Mobile_number": "878787878787",
+      "Email": "shefta66@gmail.com",
+      "Password": "Shefta66@",
+      "Confirm_password": "Shefta66@",
+      "State": "",
+      "Profile_pic": {}
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1144",
+      "name": "ShabishtanTashneem",
+      "email": "shabishtantashneem07@gmail.com",
+      "comment": "good"
+    }
+  ],
+  "menu": [
+    {
+      "id": "1",
+      "title": "Fire Chicken Screw Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Juicy fire chicken kebab, grilled to perfection.",
+      "image": "flameK.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "title": "Boneless Strip Chicken Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Tender boneless chicken strips, marinated and grilled.",
+      "image": "maxicanK.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "3",
+      "title": "Stick Mutton Kebab Meal",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Delicious stick mutton kebab with a side of rice.",
+      "image": "mealK.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "4",
+      "title": "Barbeque Fire Chicken Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Spicy barbeque chicken kebab, perfect for a fiery meal.",
+      "image": "mealK2.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "5",
+      "title": "Prawn Veggies Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Grilled prawns with a mix of fresh veggies.",
+      "image": "mealK3.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "title": "Minced Chicken Tikki Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Tasty minced chicken tikki, seasoned and grilled.",
+      "image": "mins.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "7",
+      "title": "Soya Mild Veggies Roll",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "A healthy and tasty soya veggie roll.",
+      "image": "soyaK.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "8",
+      "title": "Chicken Kebab Taco",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "Crispy tacos filled with flavorful chicken kebab.",
+      "image": "taco.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "9",
+      "title": "Chicken Pepper Mixed Kebab",
+      "price": 15.99,
+      "discountPrice": 20.99,
+      "description": "A mix of pepper and chicken kebab for a spicy kick.",
+      "image": "BarbaqueK.jpg",
+      "rating": 4.5
+    }
+  ],
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Fire Chicken Screw Kebab",
+      "image": "flameK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "2",
+      "name": "Boneless Strip Chicken Kebab",
+      "image": "maxicanK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "3",
+      "name": "Stick Mutton Kebab Meal",
+      "image": "mealK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "4",
+      "name": "Barbeque Fire Chicken Kebab",
+      "image": "mealK2.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "5",
+      "name": "Prone Veggies Kebab",
+      "image": "mealK3.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "6",
+      "name": "Minced Chicken Tikki Kebab",
+      "image": "mins.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "7",
+      "name": "Soya Mild Veggies Roll",
+      "image": "soyaK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "8",
+      "name": "Chicken Kebab Taco",
+      "image": "taco.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "9",
+      "name": "Chicken Pepper Mixed Kebab",
+      "image": "BarbaqueK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "10",
+      "name": "Hum Burger",
+      "image": "burK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "11",
+      "name": "Fish Kebab",
+      "image": "fishK1.jpeg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "12",
+      "name": "Paneer Tikka Kebab",
+      "image": "paneerK.webp",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "13",
+      "name": "Keema Kebab",
+      "image": "keemaK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "14",
+      "name": "Kebab Wrap",
+      "image": "rollK1.webp",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "15",
+      "name": "Salmon Kebab",
+      "image": "fishK2.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "16",
+      "name": "Chicken Tikka",
+      "image": "afghani.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "17",
+      "name": "Crispy Mutton Burger",
+      "image": "burgerKPro.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "18",
+      "name": "Fasita Chicken Kebab",
+      "image": "FasitaChi.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "19",
+      "name": "Grilled Drum Stick",
+      "image": "Grill DrumStick.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "20",
+      "name": "RoseMerry Boti Kebab",
+      "image": "RoseMarryBotiK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "21",
+      "name": "Teriyaki Chicken Pineapple",
+      "image": "TeriyakiCPineL.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "22",
+      "name": "Boti Kebab",
+      "image": "botiK.jpeg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "23",
+      "name": "Sweet Corn Screw",
+      "image": "cornK.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "24",
+      "name": "Tandoori Chicken Kebab",
+      "image": "tandooriChi.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    },
+    {
+      "id": "25",
+      "name": "Honey Lemon Kebab",
+      "image": "Honey.jpg",
+      "rating": 4.5,
+      "price": 15.99,
+      "oldPrice": 20.99
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "5 Best Dishes To Try This Fall",
+      "content": "very good services",
+      "image": "user1.jpeg",
+      "author": "Jassika verma",
+      "createdAt": "2024-05-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "2 Best Dishes To Try This Fall",
+      "content": "Fast delivery and serving food with good cutlery",
+      "image": "user2.jpeg",
+      "author": "Arun Singh",
+      "createdAt": "2024-05-05T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "I had tried delicious types of kebab",
+      "content": "Awesome taste and very affordable",
+      "image": "user3.jpg",
+      "author": "Sharaswati bagga",
+      "createdAt": "2024-04-22T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "I have seen different types of Kebab here for the first time",
+      "content": "Texture of kebeb is very good from outer side was crunchy and inner side was very juicy",
+      "image": "user5.jpg",
+      "author": "Asim Kamaal",
+      "createdAt": "2023-06-20T00:00:00Z"
+    }
+  ]
+}

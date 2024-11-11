@@ -1,0 +1,57 @@
+.heading {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    text-decoration:overline;
+    padding-top: 13rem ;
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading span{
+    color: white;
+    font-family: cursive;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+    gap: 2.5rem;
+    align-items: center;
+    background-color: #13131a;
+    padding: 50px;
+}
+.about h3{
+    color: #fff;
+    font-size: 60px;
+}
+.about1 img{
+    width: 80%;
+    height: 80%;
+}
+.about1{
+    padding:0px;
+}
+.about .content h4{
+    font-size: 3rem;
+    color: #fff;
+}
+.about .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.btn1{
+    background-color: green;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 10px;
+}
+.btn1:hover{
+    border-radius: 15px;
+    background-color: rgb(105, 104, 104);
+    color:chartreuse;
+    font-weight: 500;
+}

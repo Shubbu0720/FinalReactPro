@@ -1,0 +1,34 @@
+
+.heading5 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    /* padding-bottom: 3.5rem; */
+    text-decoration:overline;
+    padding-top: 10rem ;
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading5 span{
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.shopp{
+    padding-left: 20rem;
+}
+.img-fluid{
+    height: 500px;
+    width: 500px;
+}
+.topic .con{
+    font-size: 50px;
+    color: #ccc;
+    padding-top: 10rem;
+}
+.topic h2{
+    color: red;
+}
+.topic p{
+    font-size: 20px;
+}

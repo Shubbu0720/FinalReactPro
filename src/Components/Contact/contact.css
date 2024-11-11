@@ -1,0 +1,58 @@
+.heading4 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    text-decoration:overline;
+    padding-top: 14rem ;
+    font-size: 4rem;
+    /* margin-top: 10%; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading4 span{
+    color: white;
+    font-family: cursive;
+}
+.contact{
+    background: url("../../Assets/contact/banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: multiply;
+}
+.contact .row{
+    padding-left: 30%;
+}
+.contact .row .btn{
+    font-size: 20px;
+}
+.row h4{
+    font-size: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.row h2{
+    color: red;
+    font-size: 50px;
+}
+.row p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+/* .icons{
+    font-size: 40px;
+    margin: 10px;
+    color: #ccc;
+    
+} */
+.ii {
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    color: #ccc
+}
+/* .icons Link{
+    
+} */

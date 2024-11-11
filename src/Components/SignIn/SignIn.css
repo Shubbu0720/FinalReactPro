@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/src/Assets/signin/wall.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.456);
+    background-blend-mode: multiply;
+    min-width: 100%;
+    background-position: center;
+}
+.wrapper{
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background: transparent;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    transition: height .2s ease ;
+}
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+form h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(247, 247, 22);
+}
+form .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0; 
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    /* padding: 20px 45px 20px 20px; */
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 16px;
+}
+form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -0px 0 20px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.remember-forgot .link1{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+form .sub1{
+    width: 50%;
+    height: 45px;
+    background: rgb(241, 160, 9) ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+form .res1{
+    width: 50%;
+    height: 45px;
+    background: rgb(241, 160, 9);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+form .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p .link2{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p .link2:hover{
+    text-decoration: underline;
+}
+.register-link p Link:hover{
+    text-decoration: underline;
+}
+.input-box .err{
+    color:red;
+}

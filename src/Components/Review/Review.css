@@ -1,0 +1,99 @@
+.heading3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    text-decoration:overline;
+    padding-top: 14rem ;
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rev{
+    background: #4d4c4c;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+}
+.heading3 span{
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.reviewPage .rpara{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ccc;
+    padding-left: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.review-form {
+    padding-left: 34%;
+    padding-top: 4%;
+    border-radius: 8px;
+}
+.inp{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-group textarea{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50%;
+  }
+.submit-button {
+    background-color: green;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 12%;
+    cursor: pointer;
+}
+.submit-button:hover {
+    border-radius: 10px;
+    background-color: rgb(105, 104, 104);
+    color:chartreuse;
+    font-weight: 500;
+}
+  
+.reviews-section {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+.reviews-section h2{
+    color: rgb(146, 7, 7);
+    text-decoration: underline;
+}
+.revieww h3{
+    color:#fff;
+    font-size: xx-large;
+}
+.revieww p{
+    color:#fff;
+    font-size: 20px;
+}
+.delete-button {
+    background-color: green;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+  
+.delete-button:hover {
+    /* background-color: #c82333; */
+    border-radius: 10px;
+    background-color: #c82333;
+    color:chartreuse;
+    font-weight: 500;
+}

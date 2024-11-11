@@ -1,0 +1,102 @@
+.menu {
+    padding: 2rem 7%;
+}
+
+.heading1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    padding-top: 13rem;
+    text-decoration: overline;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading1 span {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 50px solid grey;
+    font-family: cursive;
+}
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 5fr));
+    gap: 2.5rem
+}
+
+.box-container img{
+    height: 300px;
+    width: 400px;
+    border-radius: 30%;
+    padding-top: 20px;
+}
+.box-container .box {
+    padding: 0.5rem;
+    text-align: center;
+    border: 0.2rem solid green;
+    border-radius: 20%;
+}
+.menu .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.menu .box-container .box h4 {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+.menu .box-container .box h4 span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+    background: #0c3b02;
+    transition: 0.5s;
+
+}
+
+/* .btn2 {
+    background-color: green;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    border-radius: 10px;
+    background-color: rgb(105, 104, 104);
+    color: chartreuse;
+    font-weight: 500;
+} */
+.star{
+    color: orange;
+}
+.view {
+    background-color: green;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700px;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-right: 20%;
+    padding-bottom: 10px;
+    margin-top:40px;
+    margin-left: 27%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.view:hover {
+    border-radius: 10px;
+    background-color: rgb(105, 104, 104);
+    color: chartreuse;
+    font-weight: 500;
+}
