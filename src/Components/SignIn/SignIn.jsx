@@ -26,29 +26,7 @@ const SignIn = () => {
             .then((result) => {
                 console.log("result", result.payload);
                 setresult(result.payload)
-                // if (result.payload) {
-                //     alert("Logged In Successfully");
-                //     setEmail('');
-                //     setPassword('');
-                //     // navigate('/cart');/
-                //     // 
-                // }
-                // switch (result) {
-                //     case "pass1":
-                // if (value.length < 1) {
-                //     err.pass1 = "Fill it up";
-                // }
-                // else if (!validPass.test(value)) {
-                //     err.pass1 = "Weak password"
-                // }
-                // else {
-                //     err.pass1 = "Strong password";
-                // }
-                // break;
-                // default:
-                // console.log("Not Applicable");
-                // break;
-                // }
+                
             }).catch(err => {
                 console.log(err);
             })
