@@ -10,10 +10,15 @@ import Shop from '../Shop/Shop'
 import Review from '../Review/Review'
 import Contact from '../Contact/Contact'
 import Blogs from '../Blogs/Blogs'
-// import Footer from '../../Layout/Footer/Footer'
-// import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+  const navigate=useNavigate()
+
+  const userName = window.localStorage.getItem("userName")
+  const handleHome=()=>{
+      userName ? navigate('/dishes') : navigate('/signin');
+  }
   return (
     <>
       <section className='home' id='home'>
@@ -27,7 +32,7 @@ const Home = () => {
               <Carousel.Caption>
                 <h3>Bihari Boti Kebab</h3>
                 <p>These marinated mutton pieces are further cooked with a melange of spices and then grilled to perfection in skewers.</p>
-                <button className='ban-btn' type="submit">Get yours now..</button>
+                <button className='ban-btn' type="submit" onClick={handleHome} >Get yours now..</button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,7 +45,7 @@ const Home = () => {
               <Carousel.Caption>
                 <h3>Smokey Chicken Kebab</h3>
                 <p>Aim for a variety of color and for veggies that will hold their shape well.And for smokey flavour we used coal.</p>
-                <button className='ban-btn' type="submit">Get yours now..</button>
+                <button className='ban-btn' type="submit" onClick={handleHome} >Get yours now..</button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -53,7 +58,7 @@ const Home = () => {
               <Carousel.Caption>
                 <h3>Lemonade Chicken Kebab</h3>
                 <p>The most delicious flavorful chicken kabob marinade made with lemon juice</p>
-                <button className='ban-btn' type="submit">Get yours now..</button>
+                <button className='ban-btn' type="submit" onClick={handleHome} >Get yours now..</button>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

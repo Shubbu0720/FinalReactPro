@@ -5,6 +5,7 @@ import Logo from '../../../src/Assets/logo1-removebg-preview.png'
 import './header.css'
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart, selectCartQuantity } from "../../Redux/Slice/AuthSlice";
+import { BsBoxArrowInLeft, BsBoxArrowInRight } from "react-icons/bs";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -68,30 +69,31 @@ const Header = () => {
                 Blogs
               </Nav.Link>
             </Nav>
-
-            {/* <div className='ic'> */}
+            <div className="signn">
             {
               userName ?
                 (
                   <Nav.Link onClick={handlelogout
                   }>
-                    <div className='sign bi bi-box-arrow-left'>
-                      Sign Out
-                    </div>
+                    <button className='sign1'>
+                    <BsBoxArrowInLeft className="bi" />
+                      <h4 className="signoo">Sign Out</h4>
+                    </button>
 
                   </Nav.Link>
                 ) : (
                   <Nav.Link as={Link} to="/signin">
 
 
-                    <div className='sign bi bi-box-arrow-in-right'>
-                      Sign In
-                    </div>
+                    <button className='sign'>
+                    <BsBoxArrowInRight className="bi" />
+                    <h4 className="signo">SignIn</h4>
+                    </button>
 
                   </Nav.Link>
                 )
             }
-
+          </div>
 
             <Nav.Link as={Link} to="/cart">
               <div className="cart">

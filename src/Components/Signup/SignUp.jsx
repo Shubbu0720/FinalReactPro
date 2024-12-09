@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaImage, FaMobileRetro } from 'react-icons/fa6';
-import { TbBuildingEstate } from 'react-icons/tb';
+// import { TbBuildingEstate } from 'react-icons/tb';mdu
 import { FaEnvelopeOpenText, FaLock, FaUnlock, FaUserAlt } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 import './SignUp.css';
@@ -32,31 +32,31 @@ const SignUp = () => {
         switch (name) {
             case "fname":
                 if (value.length < 1) {
-                    err.fname = "Fill it up";
+                    err.fname = "Fill it up*";
                 } else {
                     err.fname = "";
                 }
                 break;
             case "lname":
                 if (value.length < 1) {
-                    err.lname = "Fill it up";
+                    err.lname = "Fill it up*";
                 } else {
                     err.lname = "";
                 }
                 break;
             case "mob":
                 if (value.length < 1) {
-                    err.mob = "Fill it up";
+                    err.mob = "Fill it up*";
                 } else {
                     err.mob = "";
                 }
                 break;
             case "mail":
-                err.mail = !valEmail.test(value) ? "Fill it up" : "";
+                err.mail = !valEmail.test(value) ? "Fill it up*" : "";
                 break;
             case "pass1":
                 if (value.length < 1) {
-                    err.pass1 = "Fill it up";
+                    err.pass1 = "Fill it up*";
                 }
                 else if (!validPass.test(value)) {
                     err.pass1 = "Weak password"
@@ -67,14 +67,14 @@ const SignUp = () => {
                 break;
             case "pass2":
                 if (value.length < 1) {
-                    err.pass2 = "Fill it up";
+                    err.pass2 = "Fill it up*";
                 } else {
                     err.pass2 = "";
                 }
                 break;
             case "state":
                 if (value.length < 1) {
-                    err.state = "Fill it up";
+                    err.state = "Fill it up*";
                 } else {
                     err.state = "";
                 }
@@ -89,7 +89,18 @@ const SignUp = () => {
 
     const changeHandlerimage = (e) => {
         console.log("Choosen image", e.target.files);
-        setImageStore(e.target.files[0])
+        const file=e.target.files[0]
+        
+            const reader = new FileReader()
+             reader.readAsDataURL(file)
+    
+             reader.onloadend = ()=>{
+                setImageStore(reader.result)
+             }
+             reader.onerror = (err)=>{
+                 console.error("Error reading file",err)
+             }   
+    
     };
 
     const handleSubmit = async (event) => {
@@ -146,7 +157,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.fname &&
                                     inputData.error?.fname.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.fname}
                                     </p>
                                 ) : null
@@ -158,7 +169,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.lname &&
                                     inputData.error?.lname.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.lname}
                                     </p>
                                 ) : null
@@ -170,7 +181,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.mob &&
                                     inputData.error?.mob.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.mob}
                                     </p>
                                 ) : null
@@ -182,7 +193,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.mail &&
                                     inputData.error?.mail.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.mail}
                                     </p>
                                 ) : null
@@ -198,7 +209,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.pass1 &&
                                     inputData.error?.pass1.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.pass1}
                                     </p>
                                 ) : null
@@ -214,7 +225,7 @@ const SignUp = () => {
                             {
                                 inputData.error?.pass2 &&
                                     inputData.error?.pass2.length > 1 ? (
-                                    <p className="mt-2 text-danger">
+                                    <p className="mt-2 text-warning">
                                         {inputData.error?.pass2}
                                     </p>
                                 ) : null

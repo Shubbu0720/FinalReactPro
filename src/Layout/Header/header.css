@@ -62,13 +62,45 @@ header .marquee {
     /* font-weight: 500; */
     color: rgb(251, 255, 1);
 }
-
-.sign {
+.signo{
     font-size: 1.125rem;
     font-weight: 500;
-    padding-left: 80px;
+    padding-left: 5px;
+    padding: 12px 9px 9px 9px;
+    color: white;
 }
-
+.signoo{
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-left: 5px;
+    padding: 12px 9px 9px 9px;
+    color: white;
+}
+.sign .bi{
+    margin-top: 14px;
+    margin-left: 5px; 
+    font-weight: 800;
+    color: white;
+}
+.sign1 .bi{
+    margin-top: 14px;
+    margin-left: 5px; 
+    font-weight: 800;
+    color: white;
+}
+.sign{
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(255, 162, 0);
+}
+.sign1{
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(175, 53, 53);
+}
+.signn{
+    padding-left: 65px;
+}
 /* .ic{
     color: #fff;
 }

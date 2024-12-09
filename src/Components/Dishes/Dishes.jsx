@@ -8,7 +8,7 @@ import { addCart, fetchDishes, selectDishesError, selectDishesItems, selectDishe
 
 const Dishes = () => {
     const Navigate = useNavigate();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const dispatch = useDispatch();
     // const isLoggedIn=useSelector(selectIsLoggedIn);
     const dishesItems = useSelector(selectDishesItems);
